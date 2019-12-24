@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('button#closed').click(function () {
+    $('button.closed').click(function () {
         $(this).parents(".modal-li").removeClass('active');
         $('span.text').removeClass('active');
     });

@@ -8,6 +8,7 @@
     src: local('☺'), url('../fonts/black.woff') format('woff'), url('../fonts/black.ttf') format('truetype'), url('../fonts/black.svg') format('svg');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 // bold 
@@ -17,6 +18,7 @@
     src: local('☺'), url('../fonts/bold.woff') format('woff'), url('../fonts/bold.ttf') format('truetype'), url('../fonts/bold.svg') format('svg');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 // extrabold
@@ -26,6 +28,7 @@
     src: local('☺'), url('../fonts/extrabold.woff') format('woff'), url('../fonts/extrabold.ttf') format('truetype'), url('../fonts/extrabold.svg') format('svg');
     font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
 
 // reg
@@ -35,6 +38,7 @@
     src: local('☺'), url('../fonts/reg.woff') format('woff'), url('../fonts/reg.ttf') format('truetype'), url('../fonts/reg.svg') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -525,7 +529,7 @@ section {
                     border-bottom: 8px solid #fff;
                 }
 
-                #closed {
+                .closed {
                     background-color: transparent;
                     z-index: 4;
                     position: absolute;
@@ -602,6 +606,7 @@ section {
 .storage {
     background-color: #0b3554;
     text-align: center;
+    color: #fff;
 
     h2 {
         margin-bottom: 30px;
@@ -1170,6 +1175,7 @@ section {
         .call {
             &-btn {
                 padding: 0 12px;
+                line-height: 43px;
             }
 
             &-phone a {
